@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+body{
+    background-color: #f0f0f0;
+    /* Dedinição de fonte padrão para toda a pagina, importada. */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteudo{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.Tela-login{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: #FFF;
+    padding: 30px;
+    border-bottom: 5px;
+    text-align: center;
+    margin: auto;
+}
+.form{
+    display: block;
+    text-align: center;
+}
+.form > label{
+    width: 100%;
+    color: rgb(138, 136, 136);
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    padding-left: 35px;
+}
+#check-box{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.form > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 80%;
+    height: 30px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+}
+.btn{
+    width: 200px;
+    height: 35px;
+    border-radius: 17px;
+    border: 1px solid;
+    transition: 0.3s;
+    background-color: #dc3545;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn:hover{
+    border-color: #dc3545;
+    color: #dc3545;
+    background-color: #fff;
+}
+.imagen-perfil{
+    width: 90px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px #eee;
+}
+.Tela-login h2{
+    color: #dc3545;
+}
