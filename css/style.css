@@ -54,6 +54,7 @@ body{
     color: white;
     text-transform: capitalize;
     cursor: pointer;
+    outline: 0;
 }
 .btn:hover{
     border-color: #dc3545;
